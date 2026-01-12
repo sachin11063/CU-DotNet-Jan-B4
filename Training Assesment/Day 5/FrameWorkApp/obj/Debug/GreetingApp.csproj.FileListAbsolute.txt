@@ -1,0 +1,10 @@
+D:\college\CAPEGIMINI\assessments\CU-DotNet-Jan26-B4\DAY6\MySolution\week2\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\college\CAPEGIMINI\assessments\CU-DotNet-Jan26-B4\DAY6\MySolution\week2\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\college\CAPEGIMINI\assessments\CU-DotNet-Jan26-B4\DAY6\MySolution\week2\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\college\CAPEGIMINI\assessments\CU-DotNet-Jan26-B4\DAY6\MySolution\week2\ConsoleApp1\bin\Debug\GreetingLibrary.dll
+D:\college\CAPEGIMINI\assessments\CU-DotNet-Jan26-B4\DAY6\MySolution\week2\ConsoleApp1\bin\Debug\GreetingLibrary.pdb
+D:\college\CAPEGIMINI\assessments\CU-DotNet-Jan26-B4\DAY6\MySolution\week2\ConsoleApp1\obj\Debug\GreetingApp.csproj.AssemblyReference.cache
+D:\college\CAPEGIMINI\assessments\CU-DotNet-Jan26-B4\DAY6\MySolution\week2\ConsoleApp1\obj\Debug\GreetingApp.csproj.CoreCompileInputs.cache
+D:\college\CAPEGIMINI\assessments\CU-DotNet-Jan26-B4\DAY6\MySolution\week2\ConsoleApp1\obj\Debug\Greeting.5999AB97.Up2Date
+D:\college\CAPEGIMINI\assessments\CU-DotNet-Jan26-B4\DAY6\MySolution\week2\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\college\CAPEGIMINI\assessments\CU-DotNet-Jan26-B4\DAY6\MySolution\week2\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

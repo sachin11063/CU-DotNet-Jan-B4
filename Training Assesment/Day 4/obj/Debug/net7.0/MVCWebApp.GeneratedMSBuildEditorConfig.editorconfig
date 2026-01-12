@@ -9,41 +9,43 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVCWebApp
 build_property.RootNamespace = MVCWebApp
-build_property.ProjectDir = /Users/sachinshah/Projects/MVCWebApp/MVCWebApp/
+build_property.ProjectDir = /Users/sachinshah/Git Project /CU-DotNet-Jan-B4/Training Assesment/Day 4/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/sachinshah/Projects/MVCWebApp/MVCWebApp
+build_property.MSBuildProjectDirectory = /Users/sachinshah/Git Project /CU-DotNet-Jan-B4/Training Assesment/Day 4
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/sachinshah/Projects/MVCWebApp/MVCWebApp/Views/Home/Contact.cshtml]
+[/Users/sachinshah/Git Project /CU-DotNet-Jan-B4/Training Assesment/Day 4/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sachinshah/Projects/MVCWebApp/MVCWebApp/Views/Home/Courses.cshtml]
+[/Users/sachinshah/Git Project /CU-DotNet-Jan-B4/Training Assesment/Day 4/Views/Home/Courses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db3Vyc2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sachinshah/Projects/MVCWebApp/MVCWebApp/Views/Home/Index.cshtml]
+[/Users/sachinshah/Git Project /CU-DotNet-Jan-B4/Training Assesment/Day 4/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sachinshah/Projects/MVCWebApp/MVCWebApp/Views/Shared/Error.cshtml]
+[/Users/sachinshah/Git Project /CU-DotNet-Jan-B4/Training Assesment/Day 4/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sachinshah/Projects/MVCWebApp/MVCWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/sachinshah/Git Project /CU-DotNet-Jan-B4/Training Assesment/Day 4/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sachinshah/Projects/MVCWebApp/MVCWebApp/Views/_ViewImports.cshtml]
+[/Users/sachinshah/Git Project /CU-DotNet-Jan-B4/Training Assesment/Day 4/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sachinshah/Projects/MVCWebApp/MVCWebApp/Views/_ViewStart.cshtml]
+[/Users/sachinshah/Git Project /CU-DotNet-Jan-B4/Training Assesment/Day 4/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sachinshah/Projects/MVCWebApp/MVCWebApp/Views/Shared/_Layout.cshtml]
+[/Users/sachinshah/Git Project /CU-DotNet-Jan-B4/Training Assesment/Day 4/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5k0izk174s

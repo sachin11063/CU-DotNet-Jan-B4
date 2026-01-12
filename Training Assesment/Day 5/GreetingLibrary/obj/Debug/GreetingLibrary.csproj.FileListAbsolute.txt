@@ -1,0 +1,6 @@
+D:\college\CAPEGIMINI\assessments\CU-DotNet-Jan26-B4\DAY6\MySolution\week2\GreetingLibrary\bin\Debug\GreetingLibrary.dll
+D:\college\CAPEGIMINI\assessments\CU-DotNet-Jan26-B4\DAY6\MySolution\week2\GreetingLibrary\bin\Debug\GreetingLibrary.pdb
+D:\college\CAPEGIMINI\assessments\CU-DotNet-Jan26-B4\DAY6\MySolution\week2\GreetingLibrary\obj\Debug\GreetingLibrary.csproj.AssemblyReference.cache
+D:\college\CAPEGIMINI\assessments\CU-DotNet-Jan26-B4\DAY6\MySolution\week2\GreetingLibrary\obj\Debug\GreetingLibrary.csproj.CoreCompileInputs.cache
+D:\college\CAPEGIMINI\assessments\CU-DotNet-Jan26-B4\DAY6\MySolution\week2\GreetingLibrary\obj\Debug\GreetingLibrary.dll
+D:\college\CAPEGIMINI\assessments\CU-DotNet-Jan26-B4\DAY6\MySolution\week2\GreetingLibrary\obj\Debug\GreetingLibrary.pdb

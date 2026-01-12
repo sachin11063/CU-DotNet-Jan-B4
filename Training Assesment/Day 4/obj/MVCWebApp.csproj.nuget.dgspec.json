@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sachinshah/Projects/MVCWebApp/MVCWebApp/MVCWebApp.csproj": {}
+    "/Users/sachinshah/Git Project /CU-DotNet-Jan-B4/Training Assesment/Day 4/MVCWebApp.csproj": {}
   },
   "projects": {
-    "/Users/sachinshah/Projects/MVCWebApp/MVCWebApp/MVCWebApp.csproj": {
+    "/Users/sachinshah/Git Project /CU-DotNet-Jan-B4/Training Assesment/Day 4/MVCWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sachinshah/Projects/MVCWebApp/MVCWebApp/MVCWebApp.csproj",
+        "projectUniqueName": "/Users/sachinshah/Git Project /CU-DotNet-Jan-B4/Training Assesment/Day 4/MVCWebApp.csproj",
         "projectName": "MVCWebApp",
-        "projectPath": "/Users/sachinshah/Projects/MVCWebApp/MVCWebApp/MVCWebApp.csproj",
+        "projectPath": "/Users/sachinshah/Git Project /CU-DotNet-Jan-B4/Training Assesment/Day 4/MVCWebApp.csproj",
         "packagesPath": "/Users/sachinshah/.nuget/packages/",
-        "outputPath": "/Users/sachinshah/Projects/MVCWebApp/MVCWebApp/obj/",
+        "outputPath": "/Users/sachinshah/Git Project /CU-DotNet-Jan-B4/Training Assesment/Day 4/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sachinshah/.nuget/NuGet/NuGet.Config"
@@ -20,7 +20,6 @@
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.317/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -63,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.416/RuntimeIdentifierGraph.json"
         }
       }
     }
