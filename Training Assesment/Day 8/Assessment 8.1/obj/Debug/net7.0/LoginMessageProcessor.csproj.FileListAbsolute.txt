@@ -1,0 +1,15 @@
+/Users/sachinshah/Projects/LoginMessageProcessor/LoginMessageProcessor/bin/Debug/net7.0/LoginMessageProcessor
+/Users/sachinshah/Projects/LoginMessageProcessor/LoginMessageProcessor/bin/Debug/net7.0/LoginMessageProcessor.deps.json
+/Users/sachinshah/Projects/LoginMessageProcessor/LoginMessageProcessor/bin/Debug/net7.0/LoginMessageProcessor.runtimeconfig.json
+/Users/sachinshah/Projects/LoginMessageProcessor/LoginMessageProcessor/bin/Debug/net7.0/LoginMessageProcessor.dll
+/Users/sachinshah/Projects/LoginMessageProcessor/LoginMessageProcessor/bin/Debug/net7.0/LoginMessageProcessor.pdb
+/Users/sachinshah/Projects/LoginMessageProcessor/LoginMessageProcessor/obj/Debug/net7.0/LoginMessageProcessor.csproj.AssemblyReference.cache
+/Users/sachinshah/Projects/LoginMessageProcessor/LoginMessageProcessor/obj/Debug/net7.0/LoginMessageProcessor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sachinshah/Projects/LoginMessageProcessor/LoginMessageProcessor/obj/Debug/net7.0/LoginMessageProcessor.AssemblyInfoInputs.cache
+/Users/sachinshah/Projects/LoginMessageProcessor/LoginMessageProcessor/obj/Debug/net7.0/LoginMessageProcessor.AssemblyInfo.cs
+/Users/sachinshah/Projects/LoginMessageProcessor/LoginMessageProcessor/obj/Debug/net7.0/LoginMessageProcessor.csproj.CoreCompileInputs.cache
+/Users/sachinshah/Projects/LoginMessageProcessor/LoginMessageProcessor/obj/Debug/net7.0/LoginMessageProcessor.dll
+/Users/sachinshah/Projects/LoginMessageProcessor/LoginMessageProcessor/obj/Debug/net7.0/refint/LoginMessageProcessor.dll
+/Users/sachinshah/Projects/LoginMessageProcessor/LoginMessageProcessor/obj/Debug/net7.0/LoginMessageProcessor.pdb
+/Users/sachinshah/Projects/LoginMessageProcessor/LoginMessageProcessor/obj/Debug/net7.0/LoginMessageProcessor.genruntimeconfig.cache
+/Users/sachinshah/Projects/LoginMessageProcessor/LoginMessageProcessor/obj/Debug/net7.0/ref/LoginMessageProcessor.dll
