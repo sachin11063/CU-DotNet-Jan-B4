@@ -1,0 +1,15 @@
+/Users/sachinshah/Projects/SmartAccessLogProcessor/SmartAccessLogProcessor/bin/Debug/net7.0/SmartAccessLogProcessor
+/Users/sachinshah/Projects/SmartAccessLogProcessor/SmartAccessLogProcessor/bin/Debug/net7.0/SmartAccessLogProcessor.deps.json
+/Users/sachinshah/Projects/SmartAccessLogProcessor/SmartAccessLogProcessor/bin/Debug/net7.0/SmartAccessLogProcessor.runtimeconfig.json
+/Users/sachinshah/Projects/SmartAccessLogProcessor/SmartAccessLogProcessor/bin/Debug/net7.0/SmartAccessLogProcessor.dll
+/Users/sachinshah/Projects/SmartAccessLogProcessor/SmartAccessLogProcessor/bin/Debug/net7.0/SmartAccessLogProcessor.pdb
+/Users/sachinshah/Projects/SmartAccessLogProcessor/SmartAccessLogProcessor/obj/Debug/net7.0/SmartAccessLogProcessor.csproj.AssemblyReference.cache
+/Users/sachinshah/Projects/SmartAccessLogProcessor/SmartAccessLogProcessor/obj/Debug/net7.0/SmartAccessLogProcessor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sachinshah/Projects/SmartAccessLogProcessor/SmartAccessLogProcessor/obj/Debug/net7.0/SmartAccessLogProcessor.AssemblyInfoInputs.cache
+/Users/sachinshah/Projects/SmartAccessLogProcessor/SmartAccessLogProcessor/obj/Debug/net7.0/SmartAccessLogProcessor.AssemblyInfo.cs
+/Users/sachinshah/Projects/SmartAccessLogProcessor/SmartAccessLogProcessor/obj/Debug/net7.0/SmartAccessLogProcessor.csproj.CoreCompileInputs.cache
+/Users/sachinshah/Projects/SmartAccessLogProcessor/SmartAccessLogProcessor/obj/Debug/net7.0/SmartAccessLogProcessor.dll
+/Users/sachinshah/Projects/SmartAccessLogProcessor/SmartAccessLogProcessor/obj/Debug/net7.0/refint/SmartAccessLogProcessor.dll
+/Users/sachinshah/Projects/SmartAccessLogProcessor/SmartAccessLogProcessor/obj/Debug/net7.0/SmartAccessLogProcessor.pdb
+/Users/sachinshah/Projects/SmartAccessLogProcessor/SmartAccessLogProcessor/obj/Debug/net7.0/SmartAccessLogProcessor.genruntimeconfig.cache
+/Users/sachinshah/Projects/SmartAccessLogProcessor/SmartAccessLogProcessor/obj/Debug/net7.0/ref/SmartAccessLogProcessor.dll
