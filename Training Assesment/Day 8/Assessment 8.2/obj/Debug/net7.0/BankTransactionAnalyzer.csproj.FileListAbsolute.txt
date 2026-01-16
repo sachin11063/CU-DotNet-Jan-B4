@@ -1,0 +1,15 @@
+/Users/sachinshah/Projects/BankTransactionAnalyzer/BankTransactionAnalyzer/bin/Debug/net7.0/BankTransactionAnalyzer
+/Users/sachinshah/Projects/BankTransactionAnalyzer/BankTransactionAnalyzer/bin/Debug/net7.0/BankTransactionAnalyzer.deps.json
+/Users/sachinshah/Projects/BankTransactionAnalyzer/BankTransactionAnalyzer/bin/Debug/net7.0/BankTransactionAnalyzer.runtimeconfig.json
+/Users/sachinshah/Projects/BankTransactionAnalyzer/BankTransactionAnalyzer/bin/Debug/net7.0/BankTransactionAnalyzer.dll
+/Users/sachinshah/Projects/BankTransactionAnalyzer/BankTransactionAnalyzer/bin/Debug/net7.0/BankTransactionAnalyzer.pdb
+/Users/sachinshah/Projects/BankTransactionAnalyzer/BankTransactionAnalyzer/obj/Debug/net7.0/BankTransactionAnalyzer.csproj.AssemblyReference.cache
+/Users/sachinshah/Projects/BankTransactionAnalyzer/BankTransactionAnalyzer/obj/Debug/net7.0/BankTransactionAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sachinshah/Projects/BankTransactionAnalyzer/BankTransactionAnalyzer/obj/Debug/net7.0/BankTransactionAnalyzer.AssemblyInfoInputs.cache
+/Users/sachinshah/Projects/BankTransactionAnalyzer/BankTransactionAnalyzer/obj/Debug/net7.0/BankTransactionAnalyzer.AssemblyInfo.cs
+/Users/sachinshah/Projects/BankTransactionAnalyzer/BankTransactionAnalyzer/obj/Debug/net7.0/BankTransactionAnalyzer.csproj.CoreCompileInputs.cache
+/Users/sachinshah/Projects/BankTransactionAnalyzer/BankTransactionAnalyzer/obj/Debug/net7.0/BankTransactionAnalyzer.dll
+/Users/sachinshah/Projects/BankTransactionAnalyzer/BankTransactionAnalyzer/obj/Debug/net7.0/refint/BankTransactionAnalyzer.dll
+/Users/sachinshah/Projects/BankTransactionAnalyzer/BankTransactionAnalyzer/obj/Debug/net7.0/BankTransactionAnalyzer.pdb
+/Users/sachinshah/Projects/BankTransactionAnalyzer/BankTransactionAnalyzer/obj/Debug/net7.0/BankTransactionAnalyzer.genruntimeconfig.cache
+/Users/sachinshah/Projects/BankTransactionAnalyzer/BankTransactionAnalyzer/obj/Debug/net7.0/ref/BankTransactionAnalyzer.dll
