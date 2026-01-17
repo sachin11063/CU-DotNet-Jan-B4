@@ -68,7 +68,6 @@ namespace CSLearning
             }
 
             Console.WriteLine(new string('-', 40));
-
             Console.WriteLine($"{"Total Premium",-20}: ₹ {total:N2}");
             Console.WriteLine($"{"Average Premium",-20}: ₹ {avg:N2}");
             Console.WriteLine($"{"Highest Premium",-20}: ₹ {max:N2}");
