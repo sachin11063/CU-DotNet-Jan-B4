@@ -1,0 +1,15 @@
+/Users/sachinshah/Projects/Week2/CSLearning/bin/Debug/net7.0/CSLearning
+/Users/sachinshah/Projects/Week2/CSLearning/bin/Debug/net7.0/CSLearning.deps.json
+/Users/sachinshah/Projects/Week2/CSLearning/bin/Debug/net7.0/CSLearning.runtimeconfig.json
+/Users/sachinshah/Projects/Week2/CSLearning/bin/Debug/net7.0/CSLearning.dll
+/Users/sachinshah/Projects/Week2/CSLearning/bin/Debug/net7.0/CSLearning.pdb
+/Users/sachinshah/Projects/Week2/CSLearning/obj/Debug/net7.0/CSLearning.csproj.AssemblyReference.cache
+/Users/sachinshah/Projects/Week2/CSLearning/obj/Debug/net7.0/CSLearning.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sachinshah/Projects/Week2/CSLearning/obj/Debug/net7.0/CSLearning.AssemblyInfoInputs.cache
+/Users/sachinshah/Projects/Week2/CSLearning/obj/Debug/net7.0/CSLearning.AssemblyInfo.cs
+/Users/sachinshah/Projects/Week2/CSLearning/obj/Debug/net7.0/CSLearning.csproj.CoreCompileInputs.cache
+/Users/sachinshah/Projects/Week2/CSLearning/obj/Debug/net7.0/CSLearning.dll
+/Users/sachinshah/Projects/Week2/CSLearning/obj/Debug/net7.0/refint/CSLearning.dll
+/Users/sachinshah/Projects/Week2/CSLearning/obj/Debug/net7.0/CSLearning.pdb
+/Users/sachinshah/Projects/Week2/CSLearning/obj/Debug/net7.0/CSLearning.genruntimeconfig.cache
+/Users/sachinshah/Projects/Week2/CSLearning/obj/Debug/net7.0/ref/CSLearning.dll
