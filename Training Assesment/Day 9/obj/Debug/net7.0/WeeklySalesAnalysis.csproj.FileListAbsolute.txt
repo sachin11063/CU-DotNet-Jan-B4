@@ -1,0 +1,15 @@
+/Users/sachinshah/Projects/WeeklySalesAnalysis/WeeklySalesAnalysis/bin/Debug/net7.0/WeeklySalesAnalysis
+/Users/sachinshah/Projects/WeeklySalesAnalysis/WeeklySalesAnalysis/bin/Debug/net7.0/WeeklySalesAnalysis.deps.json
+/Users/sachinshah/Projects/WeeklySalesAnalysis/WeeklySalesAnalysis/bin/Debug/net7.0/WeeklySalesAnalysis.runtimeconfig.json
+/Users/sachinshah/Projects/WeeklySalesAnalysis/WeeklySalesAnalysis/bin/Debug/net7.0/WeeklySalesAnalysis.dll
+/Users/sachinshah/Projects/WeeklySalesAnalysis/WeeklySalesAnalysis/bin/Debug/net7.0/WeeklySalesAnalysis.pdb
+/Users/sachinshah/Projects/WeeklySalesAnalysis/WeeklySalesAnalysis/obj/Debug/net7.0/WeeklySalesAnalysis.csproj.AssemblyReference.cache
+/Users/sachinshah/Projects/WeeklySalesAnalysis/WeeklySalesAnalysis/obj/Debug/net7.0/WeeklySalesAnalysis.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sachinshah/Projects/WeeklySalesAnalysis/WeeklySalesAnalysis/obj/Debug/net7.0/WeeklySalesAnalysis.AssemblyInfoInputs.cache
+/Users/sachinshah/Projects/WeeklySalesAnalysis/WeeklySalesAnalysis/obj/Debug/net7.0/WeeklySalesAnalysis.AssemblyInfo.cs
+/Users/sachinshah/Projects/WeeklySalesAnalysis/WeeklySalesAnalysis/obj/Debug/net7.0/WeeklySalesAnalysis.csproj.CoreCompileInputs.cache
+/Users/sachinshah/Projects/WeeklySalesAnalysis/WeeklySalesAnalysis/obj/Debug/net7.0/WeeklySalesAnalysis.dll
+/Users/sachinshah/Projects/WeeklySalesAnalysis/WeeklySalesAnalysis/obj/Debug/net7.0/refint/WeeklySalesAnalysis.dll
+/Users/sachinshah/Projects/WeeklySalesAnalysis/WeeklySalesAnalysis/obj/Debug/net7.0/WeeklySalesAnalysis.pdb
+/Users/sachinshah/Projects/WeeklySalesAnalysis/WeeklySalesAnalysis/obj/Debug/net7.0/WeeklySalesAnalysis.genruntimeconfig.cache
+/Users/sachinshah/Projects/WeeklySalesAnalysis/WeeklySalesAnalysis/obj/Debug/net7.0/ref/WeeklySalesAnalysis.dll
