@@ -10,7 +10,7 @@ namespace WeeklySalesAnalysis
             decimal[] sales = new decimal[DAYS];
             string[] categories = new string[DAYS];
 
-            // 1. Data Capture with Validation
+          
             for (int i = 0; i < DAYS; i++)
             {
                 while (true)
@@ -25,7 +25,7 @@ namespace WeeklySalesAnalysis
                 }
             }
 
-            // 2. Weekly Sales Analysis
+           
             decimal totalSales = 0;
             decimal highestSale = sales[0];
             decimal lowestSale = sales[0];
@@ -58,7 +58,7 @@ namespace WeeklySalesAnalysis
                     daysAboveAverage++;
             }
 
-            // 3. Sales Categorization (Parallel Array)
+           
             for (int i = 0; i < DAYS; i++)
             {
                 if (sales[i] < 5000)
@@ -69,7 +69,7 @@ namespace WeeklySalesAnalysis
                     categories[i] = "High";
             }
 
-            // 4. Output Report
+        
             Console.WriteLine("\nWeekly Sales Report");
             Console.WriteLine("-------------------");
             Console.WriteLine($"Total Sales        : {totalSales:F2}");
