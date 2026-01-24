@@ -1,0 +1,15 @@
+/Users/sachinshah/Projects/Day10/Day10/bin/Debug/net7.0/Day10
+/Users/sachinshah/Projects/Day10/Day10/bin/Debug/net7.0/Day10.deps.json
+/Users/sachinshah/Projects/Day10/Day10/bin/Debug/net7.0/Day10.runtimeconfig.json
+/Users/sachinshah/Projects/Day10/Day10/bin/Debug/net7.0/Day10.dll
+/Users/sachinshah/Projects/Day10/Day10/bin/Debug/net7.0/Day10.pdb
+/Users/sachinshah/Projects/Day10/Day10/obj/Debug/net7.0/Day10.csproj.AssemblyReference.cache
+/Users/sachinshah/Projects/Day10/Day10/obj/Debug/net7.0/Day10.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sachinshah/Projects/Day10/Day10/obj/Debug/net7.0/Day10.AssemblyInfoInputs.cache
+/Users/sachinshah/Projects/Day10/Day10/obj/Debug/net7.0/Day10.AssemblyInfo.cs
+/Users/sachinshah/Projects/Day10/Day10/obj/Debug/net7.0/Day10.csproj.CoreCompileInputs.cache
+/Users/sachinshah/Projects/Day10/Day10/obj/Debug/net7.0/Day10.dll
+/Users/sachinshah/Projects/Day10/Day10/obj/Debug/net7.0/refint/Day10.dll
+/Users/sachinshah/Projects/Day10/Day10/obj/Debug/net7.0/Day10.pdb
+/Users/sachinshah/Projects/Day10/Day10/obj/Debug/net7.0/Day10.genruntimeconfig.cache
+/Users/sachinshah/Projects/Day10/Day10/obj/Debug/net7.0/ref/Day10.dll
