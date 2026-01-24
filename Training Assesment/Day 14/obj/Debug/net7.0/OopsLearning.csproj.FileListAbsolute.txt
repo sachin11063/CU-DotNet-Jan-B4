@@ -1,0 +1,15 @@
+/Users/sachinshah/Projects/Week3/OopsLearning/bin/Debug/net7.0/OopsLearning
+/Users/sachinshah/Projects/Week3/OopsLearning/bin/Debug/net7.0/OopsLearning.deps.json
+/Users/sachinshah/Projects/Week3/OopsLearning/bin/Debug/net7.0/OopsLearning.runtimeconfig.json
+/Users/sachinshah/Projects/Week3/OopsLearning/bin/Debug/net7.0/OopsLearning.dll
+/Users/sachinshah/Projects/Week3/OopsLearning/bin/Debug/net7.0/OopsLearning.pdb
+/Users/sachinshah/Projects/Week3/OopsLearning/obj/Debug/net7.0/OopsLearning.csproj.AssemblyReference.cache
+/Users/sachinshah/Projects/Week3/OopsLearning/obj/Debug/net7.0/OopsLearning.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sachinshah/Projects/Week3/OopsLearning/obj/Debug/net7.0/OopsLearning.AssemblyInfoInputs.cache
+/Users/sachinshah/Projects/Week3/OopsLearning/obj/Debug/net7.0/OopsLearning.AssemblyInfo.cs
+/Users/sachinshah/Projects/Week3/OopsLearning/obj/Debug/net7.0/OopsLearning.csproj.CoreCompileInputs.cache
+/Users/sachinshah/Projects/Week3/OopsLearning/obj/Debug/net7.0/OopsLearning.dll
+/Users/sachinshah/Projects/Week3/OopsLearning/obj/Debug/net7.0/refint/OopsLearning.dll
+/Users/sachinshah/Projects/Week3/OopsLearning/obj/Debug/net7.0/OopsLearning.pdb
+/Users/sachinshah/Projects/Week3/OopsLearning/obj/Debug/net7.0/OopsLearning.genruntimeconfig.cache
+/Users/sachinshah/Projects/Week3/OopsLearning/obj/Debug/net7.0/ref/OopsLearning.dll
