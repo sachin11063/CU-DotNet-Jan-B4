@@ -8,14 +8,21 @@ abstract class UtilityBill
     public decimal UnitsConsumed { get; set; }
     public decimal RatePerUnit { get; set; }
 
+    protected UtilityBill(int consumerId, string consumerName, decimal unitsConsumed, decimal ratePerUnit)
+    {
+        ConsumerId = consumerId;
+        ConsumerName = consumerName;
+        UnitsConsumed = unitsConsumed;
+        RatePerUnit = ratePerUnit;
+    }
+
+
     public abstract decimal CalculateBillAmount();
 
     public virtual decimal CalculateTax(decimal billAmount)
     {
         return billAmount + (billAmount * 0.05m);
     }
-
-
     public void PrintBill()
     {
         decimal billAmount = CalculateBillAmount();
@@ -34,6 +41,11 @@ abstract class UtilityBill
 }
 class ElectricityBill : UtilityBill
 {
+    public ElectricityBill(int ConsumerId, string ConsumerName, decimal UnitsConsumed, decimal RatePerUnit) 
+    : base(ConsumerId, ConsumerName, UnitsConsumed, RatePerUnit)
+    {
+        
+    }
     public override decimal CalculateBillAmount()
     {
         decimal amount = UnitsConsumed * RatePerUnit;
@@ -47,6 +59,11 @@ class ElectricityBill : UtilityBill
 
 class WaterBill : UtilityBill
 {
+    public WaterBill(int ConsumerId, string ConsumerName, decimal UnitsConsumed, decimal RatePerUnit) 
+    : base(ConsumerId, ConsumerName, UnitsConsumed, RatePerUnit)
+    {
+        
+    }
     public override decimal CalculateBillAmount()
     {
         return (UnitsConsumed * RatePerUnit);
@@ -59,6 +76,11 @@ class WaterBill : UtilityBill
 
 class GasBill : UtilityBill
 {
+    public GasBill(int ConsumerId, string ConsumerName, decimal UnitsConsumed, decimal RatePerUnit) 
+    : base(ConsumerId, ConsumerName, UnitsConsumed, RatePerUnit)
+    {
+        
+    }
     public override decimal CalculateBillAmount()
     {
         return (UnitsConsumed * RatePerUnit) + 150;
@@ -76,29 +98,9 @@ class Program
     {
         List<UtilityBill> bills = new List<UtilityBill>
         {
-            new ElectricityBill
-            {
-                ConsumerId = 101,
-                ConsumerName = "Sachin",
-                UnitsConsumed = 350,
-                RatePerUnit = 6.5m
-            },
-
-            new WaterBill
-            {
-                ConsumerId = 102,
-                ConsumerName = "Akash",
-                UnitsConsumed = 120,
-                RatePerUnit = 2.0m
-            },
-
-            new GasBill
-            {
-                ConsumerId = 103,
-                ConsumerName = "Rahul",
-                UnitsConsumed = 30,
-                RatePerUnit = 15m
-            }
+            new ElectricityBill( 101, "Sachin", 350, 6.5m ),
+            new WaterBill( 102, "Akash", 120, 2.0m ),
+            new GasBill( 103, "Rahul", 30, 15m ),
         };
 
         foreach (var item in bills)
