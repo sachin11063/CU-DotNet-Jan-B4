@@ -1,0 +1,15 @@
+/Users/sachinshah/Projects/Day19/Day19/bin/Debug/net7.0/Day19
+/Users/sachinshah/Projects/Day19/Day19/bin/Debug/net7.0/Day19.deps.json
+/Users/sachinshah/Projects/Day19/Day19/bin/Debug/net7.0/Day19.runtimeconfig.json
+/Users/sachinshah/Projects/Day19/Day19/bin/Debug/net7.0/Day19.dll
+/Users/sachinshah/Projects/Day19/Day19/bin/Debug/net7.0/Day19.pdb
+/Users/sachinshah/Projects/Day19/Day19/obj/Debug/net7.0/Day19.csproj.AssemblyReference.cache
+/Users/sachinshah/Projects/Day19/Day19/obj/Debug/net7.0/Day19.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sachinshah/Projects/Day19/Day19/obj/Debug/net7.0/Day19.AssemblyInfoInputs.cache
+/Users/sachinshah/Projects/Day19/Day19/obj/Debug/net7.0/Day19.AssemblyInfo.cs
+/Users/sachinshah/Projects/Day19/Day19/obj/Debug/net7.0/Day19.csproj.CoreCompileInputs.cache
+/Users/sachinshah/Projects/Day19/Day19/obj/Debug/net7.0/Day19.dll
+/Users/sachinshah/Projects/Day19/Day19/obj/Debug/net7.0/refint/Day19.dll
+/Users/sachinshah/Projects/Day19/Day19/obj/Debug/net7.0/Day19.pdb
+/Users/sachinshah/Projects/Day19/Day19/obj/Debug/net7.0/Day19.genruntimeconfig.cache
+/Users/sachinshah/Projects/Day19/Day19/obj/Debug/net7.0/ref/Day19.dll
