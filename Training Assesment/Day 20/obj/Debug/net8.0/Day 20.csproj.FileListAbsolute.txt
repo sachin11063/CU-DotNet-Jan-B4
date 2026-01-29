@@ -1,0 +1,15 @@
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 20/obj/Debug/net8.0/Day 20.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 20/obj/Debug/net8.0/Day 20.AssemblyInfoInputs.cache
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 20/obj/Debug/net8.0/Day 20.AssemblyInfo.cs
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 20/obj/Debug/net8.0/Day 20.csproj.CoreCompileInputs.cache
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 20/obj/Debug/net8.0/Day 20.sourcelink.json
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 20/bin/Debug/net8.0/Day 20
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 20/bin/Debug/net8.0/Day 20.deps.json
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 20/bin/Debug/net8.0/Day 20.runtimeconfig.json
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 20/bin/Debug/net8.0/Day 20.dll
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 20/bin/Debug/net8.0/Day 20.pdb
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 20/obj/Debug/net8.0/Day 20.dll
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 20/obj/Debug/net8.0/refint/Day 20.dll
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 20/obj/Debug/net8.0/Day 20.pdb
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 20/obj/Debug/net8.0/Day 20.genruntimeconfig.cache
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 20/obj/Debug/net8.0/ref/Day 20.dll
