@@ -1,3 +1,25 @@
+# Build artifactsgit rebase --continue
+*.dll
+*.pdb
+
+# .NET
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.cache
+*.log
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store/
+
+
+
 Day 1:
      Basic Introduction of Visual Studio 2026 and Installation Process
      
@@ -32,23 +54,3 @@ Day 8:
 
 
 
-# Build artifactsgit rebase --continue
-
-*.dll
-*.pdb
-
-# .NET
-bin/
-obj/
-
-# User-specific files
-*.user
-*.suo
-*.cache
-*.log
-
-# VS Code
-.vscode/
-
-# macOS
-.DS_Store/

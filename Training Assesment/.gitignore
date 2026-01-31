@@ -1,5 +1,4 @@
 # Build artifactsgit rebase --continue
-
 *.dll
 *.pdb
 
