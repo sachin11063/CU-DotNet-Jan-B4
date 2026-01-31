@@ -1,0 +1,15 @@
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 21/bin/Debug/net8.0/Day 21
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 21/bin/Debug/net8.0/Day 21.deps.json
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 21/bin/Debug/net8.0/Day 21.runtimeconfig.json
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 21/bin/Debug/net8.0/Day 21.dll
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 21/bin/Debug/net8.0/Day 21.pdb
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 21/obj/Debug/net8.0/Day 21.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 21/obj/Debug/net8.0/Day 21.AssemblyInfoInputs.cache
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 21/obj/Debug/net8.0/Day 21.AssemblyInfo.cs
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 21/obj/Debug/net8.0/Day 21.csproj.CoreCompileInputs.cache
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 21/obj/Debug/net8.0/Day 21.sourcelink.json
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 21/obj/Debug/net8.0/Day 21.dll
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 21/obj/Debug/net8.0/refint/Day 21.dll
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 21/obj/Debug/net8.0/Day 21.pdb
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 21/obj/Debug/net8.0/Day 21.genruntimeconfig.cache
+/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 21/obj/Debug/net8.0/ref/Day 21.dll
