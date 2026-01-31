@@ -32,3 +32,23 @@ Day 8:
 
 
 
+# Build artifactsgit rebase --continue
+
+*.dll
+*.pdb
+
+# .NET
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.cache
+*.log
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store/
