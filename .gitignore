@@ -30,24 +30,5 @@ Day 8:
       Processed transaction input data, normalized narration text, identified transaction types, categorized transactions based on business rules, and produced structured output using core .NET string methods.
 
 
-# Build artifactsgit rebase --continue
 
-*.dll
-*.pdb
-
-# .NET
-bin/
-obj/
-
-# User-specific files
-*.user
-*.suo
-*.cache
-*.log
-
-# VS Code
-.vscode/
-
-# macOS
-.DS_Store
 
