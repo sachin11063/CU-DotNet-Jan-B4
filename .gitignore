@@ -33,5 +33,6 @@ Day 8:
 bin/
 obj/
 .vscode/
+.DS_Store
 *.dll
 *.pdb
