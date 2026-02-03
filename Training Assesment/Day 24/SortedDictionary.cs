@@ -1,35 +1,36 @@
-using System.Xml.Schema;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
-namespace Leaderboard
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        SortedDictionary<double, string> leaderboard = new SortedDictionary<double, string>();
+
+        leaderboard.Add(55.42, "SwiftRacer");
+        leaderboard.Add(52.10, "SpeedDemon");
+        leaderboard.Add(58.91, "SteadyEddie");
+        leaderboard.Add(51.05, "TurboTom");
+
+        Console.WriteLine("---------Initial Leaderboard---------");
+        foreach (var entry in leaderboard)
         {
-            SortedDictionary<double, string> leaderboard = new SortedDictionary<double, string>();
-            leaderboard.Add(55.42, "SwiftRacer");
-            leaderboard.Add(52.10, "SpeedDemon");
-            leaderboard.Add(58.91, "SteadyEddie");
-            leaderboard.Add(51.05, "TurboTom");
+            Console.WriteLine($"Time(s): {entry.Key}, Player Name: {entry.Value}");
+        }
 
-            foreach (var entry in leaderboard)
-            {
-                Console.WriteLine($"Time(s): {entry.Key}, Player Name: {entry.Value}");
-            }
+        var fastest = leaderboard.First();
+        Console.WriteLine($"\nFastest Time: {fastest.Key}, Name: {fastest.Value}");
 
-            var Fastest = leaderboard.First();
-            System.Console.WriteLine($"Fastest Time: {Fastest.Key}, Name: {Fastest.Value}");
+        leaderboard.Remove(58.91);
+        Console.WriteLine("58.91 is removed successfully");
 
-            double val = 58.91;
-            leaderboard.Remove(val);
-            System.Console.WriteLine($"{val} is Removed Sucessfully");
-            leaderboard.Add(54.00, "SteadyEddie");
-            System.Console.WriteLine("\nUpdated Leaderboard:");
+        leaderboard.Add(54.00, "SteadyEddie");
 
-            foreach (var entry in leaderboard)
-            {
-                Console.WriteLine($"Time(s): {entry.Key}, Player Name: {entry.Value}");
-            }
+        Console.WriteLine("\n-----------Updated Leaderboard-----------");
+        foreach (var entry in leaderboard)
+        {
+            Console.WriteLine($"Time(s): {entry.Key}, Player Name: {entry.Value}");
         }
     }
 }
