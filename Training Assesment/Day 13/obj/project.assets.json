@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sachinshah/Projects/Week2/CSLearning/CSLearning.csproj",
+      "projectUniqueName": "/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 13/CSLearning.csproj",
       "projectName": "CSLearning",
-      "projectPath": "/Users/sachinshah/Projects/Week2/CSLearning/CSLearning.csproj",
+      "projectPath": "/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 13/CSLearning.csproj",
       "packagesPath": "/Users/sachinshah/.nuget/packages/",
-      "outputPath": "/Users/sachinshah/Projects/Week2/CSLearning/obj/",
+      "outputPath": "/Users/sachinshah/Desktop/      /C Sharp/CU-DotNet-Jan-B4/Training Assesment/Day 13/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sachinshah/.nuget/NuGet/NuGet.Config"
