@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeBonusApp", "EmployeeBonusApp\EmployeeBonusApp.csproj", "{A42AFA19-6A53-4891-A543-D21F2392846E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeBonusTest", "EmployeeBonusTest\EmployeeBonusTest.csproj", "{C5A47D2A-53BF-4FC4-A95F-CC03FDE65F1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A42AFA19-6A53-4891-A543-D21F2392846E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42AFA19-6A53-4891-A543-D21F2392846E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42AFA19-6A53-4891-A543-D21F2392846E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42AFA19-6A53-4891-A543-D21F2392846E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5A47D2A-53BF-4FC4-A95F-CC03FDE65F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A47D2A-53BF-4FC4-A95F-CC03FDE65F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A47D2A-53BF-4FC4-A95F-CC03FDE65F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A47D2A-53BF-4FC4-A95F-CC03FDE65F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
