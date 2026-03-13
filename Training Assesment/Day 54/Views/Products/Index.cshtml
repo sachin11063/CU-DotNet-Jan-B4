@@ -1,0 +1,83 @@
+@{
+    ViewData["Title"] = "Products";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid px-0">
+    <div class="page-hero parallax-banner" style="
+        background-image: linear-gradient(rgba(253,126,20,0.88), rgba(220,53,69,0.88)),
+        url('https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80');
+        padding: 80px 0 60px; color: white;">
+        <div class="container">
+            <h1 class="fw-bold hero-title"><i class="bi bi-box-seam"></i> Our Products</h1>
+            <p class="lead mb-0 hero-subtitle">Powerful tools and software built for modern businesses.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="fw-bold">Explore Our Product Suite</h2>
+        <p class="text-muted">From enterprise software to developer tools — we build what businesses need.</p>
+    </div>
+
+    <div class="row align-items-center g-5 mb-5">
+        <div class="col-md-6" data-aos="fade-right">
+            <h3 class="fw-bold mb-3">Built for Real-World Challenges</h3>
+            <p class="text-muted">Every product in our suite is born from real problems faced by real businesses. We build software and tools that are intuitive, reliable, and designed to scale as you grow.</p>
+            <p class="text-muted">Whether you need an all-in-one ERP, a developer productivity tool, or a cloud-native data platform — we have you covered.</p>
+        </div>
+        <div class="col-md-6" data-aos="fade-left">
+            <div class="img-zoom rounded-4 shadow">
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+                     class="img-fluid rounded-4" style="width:100%; height:300px; object-fit:cover;" />
+            </div>
+        </div>
+    </div>
+
+    <div class="animated-divider"></div>
+
+    <h4 class="fw-bold mb-3" data-aos="fade-up"><i class="bi bi-table text-danger"></i> Product Overview</h4>
+    <div class="table-responsive shadow-sm rounded mb-5" data-aos="fade-up">
+        <table class="table table-hover table-bordered align-middle mb-0">
+            <thead class="table-dark">
+                <tr><th>Product</th><th>Category</th><th>Platform</th><th>Status</th><th>Action</th></tr>
+            </thead>
+            <tbody>
+                <tr><td><strong>PortalERP</strong></td><td>Software</td><td>Web / Cloud</td><td><span class="badge bg-success">Available</span></td><td><a asp-controller="Products" asp-action="Software" class="btn btn-sm btn-outline-primary">Details</a></td></tr>
+                <tr><td><strong>DevKit Pro</strong></td><td>Tools</td><td>Windows / Mac</td><td><span class="badge bg-success">Available</span></td><td><a asp-controller="Products" asp-action="Tools" class="btn btn-sm btn-outline-primary">Details</a></td></tr>
+                <tr><td><strong>DataVault</strong></td><td>Software</td><td>Cloud</td><td><span class="badge bg-warning text-dark">Beta</span></td><td><a asp-controller="Products" asp-action="Software" class="btn btn-sm btn-outline-warning">Details</a></td></tr>
+                <tr><td><strong>SecureAudit</strong></td><td>Tools</td><td>Cross-Platform</td><td><span class="badge bg-info text-dark">Coming Soon</span></td><td><button class="btn btn-sm btn-outline-secondary" disabled>Soon</button></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="0">
+            <div class="card shadow-sm border-0 h-100 overflow-hidden">
+                <div class="img-zoom"><img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80" class="card-img-top" style="height:220px; object-fit:cover;" /></div>
+                <div class="card-body d-flex align-items-center gap-4 p-4">
+                    <i class="bi bi-code-slash fs-1 text-primary card-icon"></i>
+                    <div>
+                        <h5 class="fw-bold">Software Products</h5>
+                        <p class="text-muted mb-2">Enterprise-grade web and cloud applications.</p>
+                        <a asp-controller="Products" asp-action="Software" class="btn btn-primary btn-sm">Explore Software <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="150">
+            <div class="card shadow-sm border-0 h-100 overflow-hidden">
+                <div class="img-zoom"><img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80" class="card-img-top" style="height:220px; object-fit:cover;" /></div>
+                <div class="card-body d-flex align-items-center gap-4 p-4">
+                    <i class="bi bi-tools fs-1 text-danger card-icon"></i>
+                    <div>
+                        <h5 class="fw-bold">Developer Tools</h5>
+                        <p class="text-muted mb-2">Productivity tools designed for engineering teams.</p>
+                        <a asp-controller="Products" asp-action="Tools" class="btn btn-danger btn-sm">Explore Tools <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

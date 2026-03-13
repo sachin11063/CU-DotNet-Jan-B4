@@ -1,0 +1,191 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- ANIMATED HERO -->
+<div class="container-fluid px-0">
+    <div class="page-hero" style="
+        background-image: linear-gradient(rgba(13,110,253,0.82), rgba(13,202,240,0.82)),
+        url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80');
+        background-size: cover; background-position: center;
+        color: white; padding: 110px 0 90px;">
+        <div class="container text-center">
+            <div class="floating d-inline-block mb-3">
+                <i class="bi bi-building" style="font-size:3.5rem;"></i>
+            </div>
+            <h1 class="display-4 fw-bold mb-3 hero-title">Welcome to CompanyPortal</h1>
+            <p class="lead mb-4 hero-subtitle">
+                We deliver cutting-edge software solutions, expert consulting, and world-class training.<br />
+                Empowering businesses to grow smarter and faster.
+            </p>
+            <div class="hero-btns">
+                <a asp-controller="Services" asp-action="Index" class="btn btn-warning btn-lg me-3 fw-semibold">
+                    <i class="bi bi-gear"></i> Our Services
+                </a>
+                <a asp-controller="Contact" asp-action="Index" class="btn btn-outline-light btn-lg fw-semibold">
+                    <i class="bi bi-envelope"></i> Get In Touch
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ANIMATED STATS COUNTER -->
+<div class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-3" data-aos="zoom-in" data-aos-delay="0">
+                <h3 class="fw-bold text-warning stat-number">
+                    <span data-target="500" data-suffix="+">0+</span>
+                </h3>
+                <p class="mb-0 small">Happy Clients</p>
+            </div>
+            <div class="col-md-3" data-aos="zoom-in" data-aos-delay="150">
+                <h3 class="fw-bold text-warning">
+                    <span data-target="1200" data-suffix="+">0+</span>
+                </h3>
+                <p class="mb-0 small">Projects Delivered</p>
+            </div>
+            <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
+                <h3 class="fw-bold text-warning">
+                    <span data-target="15" data-suffix="+">0+</span>
+                </h3>
+                <p class="mb-0 small">Years Experience</p>
+            </div>
+            <div class="col-md-3" data-aos="zoom-in" data-aos-delay="450">
+                <h3 class="fw-bold text-warning">
+                    <span data-target="50" data-suffix="+">0+</span>
+                </h3>
+                <p class="mb-0 small">Team Members</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="animated-divider mx-5"></div>
+
+<!-- WHAT WE DO - ANIMATED CARDS -->
+<div class="container my-5">
+    <div class="text-center mb-4" data-aos="fade-up">
+        <h2 class="fw-bold">What We Do</h2>
+        <p class="text-muted">Explore our core service offerings designed to help your business thrive.</p>
+    </div>
+    <div class="row g-4">
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="img-zoom">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=80"
+                         class="card-img-top" alt="Consulting" style="height:200px; object-fit:cover;" />
+                </div>
+                <div class="card-body text-center p-4">
+                    <i class="bi bi-person-lines-fill text-primary fs-2 mb-2 card-icon"></i>
+                    <h5 class="card-title fw-bold">Consulting</h5>
+                    <p class="card-text text-muted">Strategic technology consulting to align your IT infrastructure with business goals.</p>
+                    <a asp-controller="Services" asp-action="Consulting" class="btn btn-outline-primary btn-sm">
+                        Learn More <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="img-zoom">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80"
+                         class="card-img-top" alt="Software" style="height:200px; object-fit:cover;" />
+                </div>
+                <div class="card-body text-center p-4">
+                    <i class="bi bi-code-slash text-success fs-2 mb-2 card-icon"></i>
+                    <h5 class="card-title fw-bold">Software Products</h5>
+                    <p class="card-text text-muted">Robust, scalable software built with modern technologies to solve real problems.</p>
+                    <a asp-controller="Products" asp-action="Software" class="btn btn-outline-success btn-sm">
+                        Learn More <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="img-zoom">
+                    <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&q=80"
+                         class="card-img-top" alt="Training" style="height:200px; object-fit:cover;" />
+                </div>
+                <div class="card-body text-center p-4">
+                    <i class="bi bi-mortarboard text-warning fs-2 mb-2 card-icon"></i>
+                    <h5 class="card-title fw-bold">Training Programs</h5>
+                    <p class="card-text text-muted">Industry-recognized certification programs and hands-on training for your team.</p>
+                    <a asp-controller="Services" asp-action="Training" class="btn btn-outline-warning btn-sm">
+                        Learn More <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="animated-divider mx-5"></div>
+
+<!-- PARALLAX BANNER -->
+<div class="container-fluid px-0 parallax-banner" style="
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1600&q=80');
+    color: white; padding: 90px 0;">
+    <div class="container text-center" data-aos="zoom-in">
+        <h2 class="fw-bold display-6 mb-3">Ready to Transform Your Business?</h2>
+        <p class="lead mb-4">Join 500+ companies that trust CompanyPortal to deliver results.</p>
+        <a asp-controller="Contact" asp-action="Index" class="btn btn-warning btn-lg fw-semibold px-5">
+            <i class="bi bi-rocket-takeoff"></i> Get Started Today
+        </a>
+    </div>
+</div>
+
+<!-- WHY CHOOSE US -->
+<div class="bg-light py-5">
+    <div class="container">
+        <div class="text-center mb-4" data-aos="fade-up">
+            <h2 class="fw-bold">Why Choose Us?</h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6" data-aos="fade-right" data-aos-delay="0">
+                <div class="card border-0 shadow-sm p-3 d-flex flex-row align-items-center gap-3">
+                    <i class="bi bi-shield-check text-primary fs-1 card-icon"></i>
+                    <div>
+                        <h6 class="fw-bold mb-1">Trusted & Reliable</h6>
+                        <p class="text-muted small mb-0">15+ years of proven industry experience.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-left" data-aos-delay="100">
+                <div class="card border-0 shadow-sm p-3 d-flex flex-row align-items-center gap-3">
+                    <i class="bi bi-lightning-charge text-warning fs-1 card-icon"></i>
+                    <div>
+                        <h6 class="fw-bold mb-1">Fast Delivery</h6>
+                        <p class="text-muted small mb-0">Agile methodology ensures on-time project delivery.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-right" data-aos-delay="200">
+                <div class="card border-0 shadow-sm p-3 d-flex flex-row align-items-center gap-3">
+                    <i class="bi bi-headset text-success fs-1 card-icon"></i>
+                    <div>
+                        <h6 class="fw-bold mb-1">24/7 Support</h6>
+                        <p class="text-muted small mb-0">Dedicated support team available round the clock.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-left" data-aos-delay="300">
+                <div class="card border-0 shadow-sm p-3 d-flex flex-row align-items-center gap-3">
+                    <i class="bi bi-graph-up-arrow text-danger fs-1 card-icon"></i>
+                    <div>
+                        <h6 class="fw-bold mb-1">Scalable Solutions</h6>
+                        <p class="text-muted small mb-0">Solutions that grow with your business needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

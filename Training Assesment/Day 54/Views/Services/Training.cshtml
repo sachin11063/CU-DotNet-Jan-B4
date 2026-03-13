@@ -1,0 +1,130 @@
+@{
+    ViewData["Title"] = "Training Programs";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid px-0">
+    <div class="page-hero parallax-banner" style="
+        background-image: linear-gradient(rgba(25,135,84,0.88), rgba(13,202,240,0.88)),
+        url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1600&q=80');
+        padding: 80px 0 60px; color: white;">
+        <div class="container">
+            <h1 class="fw-bold hero-title"><i class="bi bi-mortarboard"></i> Training Programs</h1>
+            <p class="lead mb-0 hero-subtitle">Upskill your team with industry-recognized, hands-on training.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container my-5">
+
+    <div class="row align-items-center g-5 mb-5">
+        <div class="col-md-6" data-aos="fade-right">
+            <div class="img-zoom rounded-4 shadow">
+                <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80"
+                     class="img-fluid rounded-4" alt="Training"
+                     style="width:100%; height:320px; object-fit:cover;" />
+            </div>
+        </div>
+        <div class="col-md-6" data-aos="fade-left">
+            <h3 class="fw-bold mb-3">Invest in Your Team's Growth</h3>
+            <p class="text-muted">Our training programs are designed by industry practitioners. Every course includes real-world projects, peer collaboration, and mentorship from working professionals.</p>
+            <p class="text-muted">With flexible formats and competitive pricing, upskilling your entire team has never been more accessible.</p>
+            <a asp-controller="Contact" asp-action="Index" class="btn btn-success mt-2">
+                <i class="bi bi-people"></i> Enroll Your Team
+            </a>
+        </div>
+    </div>
+
+    <div class="animated-divider"></div>
+
+    <h3 class="fw-bold mb-4" data-aos="fade-up"><i class="bi bi-book text-success"></i> Available Courses</h3>
+    <div class="accordion shadow-sm mb-5" id="trainingAccordion" data-aos="fade-up">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#dotnet">
+                    <i class="bi bi-code-slash me-2 text-primary"></i> .NET &amp; ASP.NET Core Development
+                </button>
+            </h2>
+            <div id="dotnet" class="accordion-collapse collapse show" data-bs-parent="#trainingAccordion">
+                <div class="accordion-body text-muted">Master C#, ASP.NET MVC, Entity Framework, REST APIs, and Blazor. 8-week program with hands-on projects.<br /><br />
+                    <span class="badge bg-primary">8 Weeks</span> <span class="badge bg-secondary">Beginner–Advanced</span> <span class="badge bg-success">Certificate Included</span>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#cloud">
+                    <i class="bi bi-cloud me-2 text-info"></i> Cloud Computing (AWS &amp; Azure)
+                </button>
+            </h2>
+            <div id="cloud" class="accordion-collapse collapse" data-bs-parent="#trainingAccordion">
+                <div class="accordion-body text-muted">Comprehensive training for AWS Solutions Architect and Azure Administrator certifications.<br /><br />
+                    <span class="badge bg-info text-dark">10 Weeks</span> <span class="badge bg-warning text-dark">Intermediate</span> <span class="badge bg-success">Cert Prep</span>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#data">
+                    <i class="bi bi-bar-chart me-2 text-warning"></i> Data Science &amp; Machine Learning
+                </button>
+            </h2>
+            <div id="data" class="accordion-collapse collapse" data-bs-parent="#trainingAccordion">
+                <div class="accordion-body text-muted">Python, Pandas, NumPy, Scikit-learn, TensorFlow, and Power BI. Build predictive models with a capstone project.<br /><br />
+                    <span class="badge bg-warning text-dark">12 Weeks</span> <span class="badge bg-secondary">Intermediate</span> <span class="badge bg-success">Certificate Included</span>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#agile">
+                    <i class="bi bi-kanban me-2 text-danger"></i> Agile &amp; Scrum Fundamentals
+                </button>
+            </h2>
+            <div id="agile" class="accordion-collapse collapse" data-bs-parent="#trainingAccordion">
+                <div class="accordion-body text-muted">PSM I &amp; PSPO certification preparation. Learn sprint planning, retrospectives, and backlog management.<br /><br />
+                    <span class="badge bg-danger">3 Days Intensive</span> <span class="badge bg-secondary">All Levels</span> <span class="badge bg-success">PSM I Prep</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="animated-divider"></div>
+
+    <h3 class="fw-bold mb-4" data-aos="fade-up"><i class="bi bi-layout-three-columns text-success"></i> Training Formats</h3>
+    <div class="row g-4">
+        <div class="col-md-4" data-aos="flip-up" data-aos-delay="0">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="img-zoom"><img src="https://images.unsplash.com/photo-1587440871875-191322ee64b0?w=600&q=80" class="card-img-top" style="height:180px; object-fit:cover;" /></div>
+                <div class="card-body text-center p-4">
+                    <i class="bi bi-laptop fs-2 text-primary mb-2 card-icon"></i>
+                    <h5 class="fw-bold">Online Live</h5>
+                    <p class="text-muted small">Instructor-led virtual sessions via Zoom. Interactive, with live Q&amp;A and recordings.</p>
+                    <span class="badge bg-primary">Most Popular</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4" data-aos="flip-up" data-aos-delay="150">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="img-zoom"><img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80" class="card-img-top" style="height:180px; object-fit:cover;" /></div>
+                <div class="card-body text-center p-4">
+                    <i class="bi bi-building fs-2 text-success mb-2 card-icon"></i>
+                    <h5 class="fw-bold">On-Site</h5>
+                    <p class="text-muted small">We come to your office. Ideal for corporate team training with custom curriculum.</p>
+                    <span class="badge bg-success">Corporate</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4" data-aos="flip-up" data-aos-delay="300">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="img-zoom"><img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&q=80" class="card-img-top" style="height:180px; object-fit:cover;" /></div>
+                <div class="card-body text-center p-4">
+                    <i class="bi bi-play-circle fs-2 text-warning mb-2 card-icon"></i>
+                    <h5 class="fw-bold">Self-Paced</h5>
+                    <p class="text-muted small">Pre-recorded lessons available 24/7. Learn at your own speed with quizzes and projects.</p>
+                    <span class="badge bg-warning text-dark">Flexible</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

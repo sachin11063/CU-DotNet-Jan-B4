@@ -1,0 +1,127 @@
+@{
+    ViewData["Title"] = "About Us";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid px-0">
+    <div class="page-hero" style="
+        background-image: linear-gradient(rgba(25,135,84,0.88), rgba(13,202,240,0.88)),
+        url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1600&q=80');
+        background-size: cover; background-position: center;
+        color: white; padding: 80px 0 50px;">
+        <div class="container">
+            <h1 class="fw-bold hero-title"><i class="bi bi-info-circle"></i> About Us</h1>
+            <p class="lead mb-0 hero-subtitle">Learn who we are, what we stand for, and where we're headed.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container my-5">
+
+    <div data-aos="fade-up">
+        <div class="alert alert-primary d-flex align-items-start gap-3 shadow-sm" role="alert">
+            <i class="bi bi-megaphone-fill fs-3 mt-1"></i>
+            <div>
+                <h5 class="alert-heading fw-bold">Our Mission</h5>
+                <p class="mb-0">At CompanyPortal, our mission is to empower businesses through innovative technology solutions, expert consulting, and transformative training programs.</p>
+            </div>
+        </div>
+    </div>
+
+    <div data-aos="fade-up" data-aos-delay="100">
+        <div class="alert alert-success d-flex align-items-start gap-3 shadow-sm mt-3" role="alert">
+            <i class="bi bi-eye-fill fs-3 mt-1"></i>
+            <div>
+                <h5 class="alert-heading fw-bold">Our Vision</h5>
+                <p class="mb-0">To become the most trusted technology partner for SMEs and enterprises globally, recognized for our commitment to quality, innovation, and client success.</p>
+            </div>
+        </div>
+    </div>
+
+    <div data-aos="fade-up" data-aos-delay="200">
+        <div class="alert alert-warning d-flex align-items-start gap-3 shadow-sm mt-3" role="alert">
+            <i class="bi bi-exclamation-triangle-fill fs-3 mt-1"></i>
+            <div>
+                <h5 class="alert-heading fw-bold">Important Notice</h5>
+                <p class="mb-0">We are currently expanding our team and accepting new client onboardings for Q3 2025.
+                    <a asp-controller="Contact" asp-action="Index" class="alert-link">Contact us</a> to learn more.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="animated-divider"></div>
+
+    <div class="row mt-4 g-4">
+        <div class="col-md-6" data-aos="fade-right">
+            <h3 class="fw-bold mb-3"><i class="bi bi-journal-text text-primary"></i> Our Story</h3>
+            <p class="text-muted">Founded in 2010, CompanyPortal started as a small IT consulting firm with just 5 employees. Over the years, we have grown into a full-service technology company with over 50 professionals.</p>
+            <p class="text-muted">We have successfully delivered 1200+ projects across industries including healthcare, finance, retail, and logistics.</p>
+
+            <h5 class="fw-bold mt-4 mb-3"><i class="bi bi-clock-history text-secondary"></i> Company Milestones</h5>
+            <ul class="list-group list-group-flush shadow-sm rounded">
+                <li class="list-group-item d-flex justify-content-between align-items-center" data-aos="fade-right" data-aos-delay="0">
+                    <span><i class="bi bi-flag text-primary me-2"></i> Company Founded</span>
+                    <span class="badge bg-primary rounded-pill">2010</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" data-aos="fade-right" data-aos-delay="100">
+                    <span><i class="bi bi-globe text-success me-2"></i> Expanded Globally</span>
+                    <span class="badge bg-success rounded-pill">2014</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" data-aos="fade-right" data-aos-delay="200">
+                    <span><i class="bi bi-trophy text-warning me-2"></i> Best Tech Firm Award</span>
+                    <span class="badge bg-warning text-dark rounded-pill">2017</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" data-aos="fade-right" data-aos-delay="300">
+                    <span><i class="bi bi-mortarboard text-info me-2"></i> Training Division Launched</span>
+                    <span class="badge bg-info text-dark rounded-pill">2019</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" data-aos="fade-right" data-aos-delay="400">
+                    <span><i class="bi bi-star text-danger me-2"></i> 500+ Clients Milestone</span>
+                    <span class="badge bg-danger rounded-pill">2023</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-md-6" data-aos="fade-left">
+            <h3 class="fw-bold mb-3"><i class="bi bi-star text-warning"></i> Our Core Values</h3>
+            <ul class="list-group shadow-sm rounded">
+                <li class="list-group-item list-group-item-action" data-aos="fade-left" data-aos-delay="0">
+                    <i class="bi bi-check-circle-fill text-success me-2"></i>
+                    <strong>Integrity</strong> — We do what's right, even when no one is watching.
+                </li>
+                <li class="list-group-item list-group-item-action" data-aos="fade-left" data-aos-delay="100">
+                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                    <strong>Innovation</strong> — We constantly push boundaries to deliver better solutions.
+                </li>
+                <li class="list-group-item list-group-item-action" data-aos="fade-left" data-aos-delay="200">
+                    <i class="bi bi-check-circle-fill text-warning me-2"></i>
+                    <strong>Collaboration</strong> — Teamwork and partnership define how we work.
+                </li>
+                <li class="list-group-item list-group-item-action" data-aos="fade-left" data-aos-delay="300">
+                    <i class="bi bi-check-circle-fill text-danger me-2"></i>
+                    <strong>Excellence</strong> — High standards in every project, every time.
+                </li>
+                <li class="list-group-item list-group-item-action" data-aos="fade-left" data-aos-delay="400">
+                    <i class="bi bi-check-circle-fill text-info me-2"></i>
+                    <strong>Client Focus</strong> — Your success is our success.
+                </li>
+            </ul>
+
+            <h5 class="fw-bold mt-4 mb-3"><i class="bi bi-people text-primary"></i> Meet the Leadership</h5>
+            <ul class="list-group shadow-sm rounded">
+                <li class="list-group-item d-flex align-items-center gap-3" data-aos="zoom-in" data-aos-delay="0">
+                    <i class="bi bi-person-circle fs-2 text-primary"></i>
+                    <div><strong>John Smith</strong><br /><small class="text-muted">CEO &amp; Co-Founder</small></div>
+                </li>
+                <li class="list-group-item d-flex align-items-center gap-3" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="bi bi-person-circle fs-2 text-success"></i>
+                    <div><strong>Sarah Johnson</strong><br /><small class="text-muted">CTO &amp; Head of Engineering</small></div>
+                </li>
+                <li class="list-group-item d-flex align-items-center gap-3" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="bi bi-person-circle fs-2 text-warning"></i>
+                    <div><strong>Michael Chen</strong><br /><small class="text-muted">VP of Consulting Services</small></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

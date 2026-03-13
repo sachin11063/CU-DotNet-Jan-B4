@@ -1,0 +1,77 @@
+@{
+    ViewData["Title"] = "Developer Tools";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid px-0">
+    <div class="page-hero parallax-banner" style="
+        background-image: linear-gradient(rgba(220,53,69,0.88), rgba(253,126,20,0.88)),
+        url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1600&q=80');
+        padding: 80px 0 60px; color: white;">
+        <div class="container">
+            <h1 class="fw-bold hero-title"><i class="bi bi-tools"></i> Developer Tools</h1>
+            <p class="lead mb-0 hero-subtitle">Productivity-boosting tools crafted for development teams.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container my-5">
+
+    <div class="row align-items-center g-5 mb-5">
+        <div class="col-md-5" data-aos="fade-right">
+            <div class="img-zoom rounded-4 shadow">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=700&q=80"
+                     class="img-fluid rounded-4" style="width:100%; height:260px; object-fit:cover;" />
+            </div>
+        </div>
+        <div class="col-md-7" data-aos="fade-left">
+            <h3 class="fw-bold mb-3">Tools Built by Developers, for Developers</h3>
+            <p class="text-muted">Our tools are designed to eliminate friction in your development workflow. Each tool is lean, fast, and integrates seamlessly into your existing stack.</p>
+            <p class="text-muted">All our open-source tools are available on GitHub and actively maintained by our engineering team and community contributors.</p>
+            <a href="#" class="btn btn-outline-dark btn-sm mt-1"><i class="bi bi-github"></i> View on GitHub</a>
+        </div>
+    </div>
+
+    <div class="animated-divider"></div>
+
+    <div class="mb-4" data-aos="fade-up">
+        <h4 class="fw-bold mb-3"><i class="bi bi-tags text-danger"></i> Tool Categories</h4>
+        <span class="badge bg-danger fs-6 me-2 mb-2"><i class="bi bi-terminal"></i> CLI Tools</span>
+        <span class="badge bg-dark fs-6 me-2 mb-2"><i class="bi bi-plugin"></i> IDE Plugins</span>
+        <span class="badge bg-primary fs-6 me-2 mb-2"><i class="bi bi-shield-check"></i> Security</span>
+        <span class="badge bg-success fs-6 me-2 mb-2"><i class="bi bi-activity"></i> Monitoring</span>
+        <span class="badge bg-warning text-dark fs-6 me-2 mb-2"><i class="bi bi-code-square"></i> Code Analysis</span>
+        <span class="badge bg-info text-dark fs-6 me-2 mb-2"><i class="bi bi-arrow-repeat"></i> DevOps</span>
+    </div>
+
+    <h4 class="fw-bold mb-3" data-aos="fade-up"><i class="bi bi-table text-danger"></i> Tools Catalog</h4>
+    <div class="table-responsive shadow-sm rounded mb-5" data-aos="fade-up">
+        <table class="table table-hover table-bordered align-middle">
+            <thead class="table-danger">
+                <tr><th>#</th><th>Tool Name</th><th>Type</th><th>Platforms</th><th>Language</th><th>License</th><th>Downloads</th><th>Status</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td><strong>DevKit Pro</strong></td><td><span class="badge bg-dark">IDE Plugin</span></td><td><span class="badge bg-secondary">VS Code</span> <span class="badge bg-primary">Visual Studio</span></td><td>TypeScript</td><td><span class="badge bg-secondary">Free</span></td><td><span class="badge bg-success">120K+</span></td><td><span class="badge bg-success">Stable</span></td></tr>
+                <tr><td>2</td><td><strong>DBMigrator</strong></td><td><span class="badge bg-danger">CLI</span></td><td><span class="badge bg-dark">Windows</span> <span class="badge bg-secondary">Linux</span> <span class="badge bg-info text-dark">macOS</span></td><td>C#</td><td><span class="badge bg-secondary">Open Source</span></td><td><span class="badge bg-success">45K+</span></td><td><span class="badge bg-success">Stable</span></td></tr>
+                <tr><td>3</td><td><strong>SecureAudit</strong></td><td><span class="badge bg-primary">Security</span></td><td><span class="badge bg-dark">Windows</span> <span class="badge bg-secondary">Linux</span></td><td>Go</td><td><span class="badge bg-warning text-dark">Commercial</span></td><td><span class="badge bg-info text-dark">Preview</span></td><td><span class="badge bg-info text-dark">Coming Soon</span></td></tr>
+                <tr><td>4</td><td><strong>LogWatcher</strong></td><td><span class="badge bg-success">Monitoring</span></td><td><span class="badge bg-secondary">Linux</span> <span class="badge bg-info text-dark">macOS</span></td><td>Python</td><td><span class="badge bg-secondary">Open Source</span></td><td><span class="badge bg-success">80K+</span></td><td><span class="badge bg-success">Stable</span></td></tr>
+                <tr><td>5</td><td><strong>CodeLens AI</strong></td><td><span class="badge bg-warning text-dark">Code Analysis</span></td><td><span class="badge bg-dark">VS Code</span></td><td>TypeScript</td><td><span class="badge bg-primary">SaaS</span></td><td><span class="badge bg-warning text-dark">8K+</span></td><td><span class="badge bg-warning text-dark">Beta</span></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h4 class="fw-bold mb-3" data-aos="fade-up"><i class="bi bi-grid-3x3 text-danger"></i> Platform Compatibility Matrix</h4>
+    <div class="table-responsive shadow-sm rounded" data-aos="fade-up">
+        <table class="table table-bordered text-center align-middle">
+            <thead class="table-dark">
+                <tr><th>Tool</th><th>Windows</th><th>macOS</th><th>Linux</th><th>Docker</th><th>CI/CD</th></tr>
+            </thead>
+            <tbody>
+                <tr><td><strong>DevKit Pro</strong></td><td><span class="badge bg-success">✓</span></td><td><span class="badge bg-success">✓</span></td><td><span class="badge bg-success">✓</span></td><td><span class="badge bg-secondary">—</span></td><td><span class="badge bg-success">✓</span></td></tr>
+                <tr><td><strong>DBMigrator</strong></td><td><span class="badge bg-success">✓</span></td><td><span class="badge bg-success">✓</span></td><td><span class="badge bg-success">✓</span></td><td><span class="badge bg-success">✓</span></td><td><span class="badge bg-success">✓</span></td></tr>
+                <tr><td><strong>LogWatcher</strong></td><td><span class="badge bg-danger">✗</span></td><td><span class="badge bg-success">✓</span></td><td><span class="badge bg-success">✓</span></td><td><span class="badge bg-success">✓</span></td><td><span class="badge bg-success">✓</span></td></tr>
+                <tr><td><strong>CodeLens AI</strong></td><td><span class="badge bg-success">✓</span></td><td><span class="badge bg-success">✓</span></td><td><span class="badge bg-success">✓</span></td><td><span class="badge bg-secondary">—</span></td><td><span class="badge bg-secondary">—</span></td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>

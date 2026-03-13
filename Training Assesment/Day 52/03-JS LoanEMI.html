@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ClearDebt Loan Calculator</title>
+</head>
+
+<body>
+
+<h2>ClearDebt Loan EMI Calculator</h2>
+
+<form onsubmit="calculateEMI(); return false;">
+Loan Amount:
+<input type="number" id="amount" required><br><br>
+
+Interest Rate (% per year):
+<input type="number" id="rate" step="0.01" required><br><br>
+
+Tenure (Months):
+<input type="number" id="months" required><br><br>
+
+<button type="submit">Calculate EMI</button>
+</form>
+
+<br>
+
+<table border="1">
+<thead>
+<tr>
+<th>SNO</th>
+<th>Loan Left</th>
+<th>EMI</th>
+<th>Principal</th>
+<th>Interest</th>
+<th>Remaining Balance</th>
+</tr>
+</thead>
+
+<tbody id="scheduleBody">
+</tbody>
+</table>
+
+<script>
+
+function calculateEMI()
+{
+    let P = parseFloat(document.getElementById("amount").value);
+    let annualRate = parseFloat(document.getElementById("rate").value);
+    let n = parseFloat(document.getElementById("months").value);
+
+    let r = annualRate / 12 / 100;
+
+    let EMI = P * r * (Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
+
+    let balance = P;
+
+    let table = document.getElementById("scheduleBody");
+    table.innerHTML = "";
+
+    for(let i=1; i<=n; i++)
+    {
+        let interest = balance * r;
+        let principal = EMI - interest;
+        let remaining = balance - principal;
+
+        let row = "<tr>" +
+        "<td>"+ i +"</td>" +
+        "<td>"+ balance.toFixed(2) +"</td>" +
+        "<td>"+ EMI.toFixed(2) +"</td>" +
+        "<td>"+ principal.toFixed(2) +"</td>" +
+        "<td>"+ interest.toFixed(2) +"</td>" +
+        "<td>"+ remaining.toFixed(2) +"</td>" +
+        "</tr>";
+
+        table.innerHTML += row;
+
+        balance = remaining;
+    }
+}
+
+</script>
+
+</body>
+</html>

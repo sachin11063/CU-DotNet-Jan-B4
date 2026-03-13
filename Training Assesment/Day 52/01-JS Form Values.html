@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script>
+        function showValues(event){
+
+        event.preventDefault();
+
+    
+        let num1 = document.getElementById("num1").value;
+        let num2 = document.getElementById("num2").value;
+
+        let gender = document.querySelector('input[name="gender"]:checked');
+        let course = document.getElementById("course").value;
+
+        let hobbies = "";
+        let hobbyList = document.querySelectorAll('input[name="hobby"]:checked');
+
+        hobbyList.forEach(function(h){
+            hobbies += h.value + " ";
+        });
+
+        let genderValue = gender ? gender.value : "Not Selected";
+
+        let result =
+            "Number 1: " + num1 +
+            " | Number 2: " + num2 +
+            " | Gender: " + genderValue +
+            " | Course: " + course +
+            " | Hobbies: " + hobbies;
+
+        document.getElementById("output").innerText = result;
+        }
+    </script>
+
+</head>
+<body>
+    <h2>Student Form</h2>
+
+    <form onsubmit="showValues(event)">
+        <label>Number 1:</label>
+        <input type="text" id="num1">
+    <br><br>
+
+    <label>Number 2:</label>
+    <input type="text" id="num2">
+    <br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <br><br>
+
+    <label>Course:</label>
+    <select id="course">
+    <option value="JavaScript">JavaScript</option>
+    <option value="Python">Python</option>
+    <option value="Java">Java</option>
+    </select>
+    <br><br>
+
+    <label>Hobbies:</label>
+    <input type="checkbox" name="hobby" value="Music"> Music
+    <input type="checkbox" name="hobby" value="Sports"> Sports
+    <input type="checkbox" name="hobby" value="Reading"> Reading
+    <br><br>
+
+    <input type="submit" value="Submit">
+    </form>
+    <br>
+    <h3>Selected Values:</h3>
+    <p id="output"></p>
+
+</body>
+</html>

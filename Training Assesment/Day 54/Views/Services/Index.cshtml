@@ -1,0 +1,140 @@
+@{
+    ViewData["Title"] = "Services";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid px-0">
+    <div class="page-hero parallax-banner" style="
+        background-image: linear-gradient(rgba(111,66,193,0.85), rgba(214,51,132,0.85)),
+        url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1600&q=80');
+        padding: 80px 0 60px; color: white;">
+        <div class="container">
+            <h1 class="fw-bold hero-title"><i class="bi bi-gear-wide-connected"></i> Our Services</h1>
+            <p class="lead mb-0 hero-subtitle">Comprehensive solutions tailored to your business needs.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="fw-bold">Everything You Need, Under One Roof</h2>
+        <p class="text-muted">From strategy to execution — we've got you covered.</p>
+    </div>
+
+    <div class="row g-4 mb-5">
+        <div class="col-md-3" data-aos="flip-left" data-aos-delay="0">
+            <div class="card border-0 shadow-sm h-100 text-center overflow-hidden">
+                <div class="img-zoom"><img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&q=80" class="card-img-top" alt="Consulting" style="height:160px; object-fit:cover;" /></div>
+                <div class="card-body"><h6 class="fw-bold">IT Consulting</h6><p class="text-muted small">Expert strategic guidance</p></div>
+            </div>
+        </div>
+        <div class="col-md-3" data-aos="flip-left" data-aos-delay="100">
+            <div class="card border-0 shadow-sm h-100 text-center overflow-hidden">
+                <div class="img-zoom"><img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=400&q=80" class="card-img-top" alt="Training" style="height:160px; object-fit:cover;" /></div>
+                <div class="card-body"><h6 class="fw-bold">Training Programs</h6><p class="text-muted small">Hands-on skill building</p></div>
+            </div>
+        </div>
+        <div class="col-md-3" data-aos="flip-left" data-aos-delay="200">
+            <div class="card border-0 shadow-sm h-100 text-center overflow-hidden">
+                <div class="img-zoom"><img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&q=80" class="card-img-top" alt="Development" style="height:160px; object-fit:cover;" /></div>
+                <div class="card-body"><h6 class="fw-bold">Software Development</h6><p class="text-muted small">Custom-built solutions</p></div>
+            </div>
+        </div>
+        <div class="col-md-3" data-aos="flip-left" data-aos-delay="300">
+            <div class="card border-0 shadow-sm h-100 text-center overflow-hidden">
+                <div class="img-zoom"><img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&q=80" class="card-img-top" alt="Cloud" style="height:160px; object-fit:cover;" /></div>
+                <div class="card-body"><h6 class="fw-bold">Cloud Services</h6><p class="text-muted small">Scalable cloud solutions</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div data-aos="fade-up">
+        <div class="accordion shadow-sm" id="servicesAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseConsulting">
+                        <i class="bi bi-person-check me-2 text-primary"></i> IT Consulting
+                    </button>
+                </h2>
+                <div id="collapseConsulting" class="accordion-collapse collapse show" data-bs-parent="#servicesAccordion">
+                    <div class="accordion-body">
+                        <div class="row align-items-center g-3">
+                            <div class="col-md-3 img-zoom"><img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&q=80" class="img-fluid rounded shadow-sm" style="height:130px; width:100%; object-fit:cover;" /></div>
+                            <div class="col-md-9 text-muted">Our IT consulting experts work closely with your team to analyze existing processes and propose technology-driven improvements.<br /><br />
+                                <a asp-controller="Services" asp-action="Consulting" class="btn btn-sm btn-primary"><i class="bi bi-arrow-right"></i> View Consulting Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTraining">
+                        <i class="bi bi-mortarboard me-2 text-success"></i> Training Programs
+                    </button>
+                </h2>
+                <div id="collapseTraining" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
+                    <div class="accordion-body">
+                        <div class="row align-items-center g-3">
+                            <div class="col-md-3 img-zoom"><img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=400&q=80" class="img-fluid rounded shadow-sm" style="height:130px; width:100%; object-fit:cover;" /></div>
+                            <div class="col-md-9 text-muted">We offer industry-leading training programs covering .NET, Cloud Computing, Data Science, Cybersecurity, and Agile methodologies.<br /><br />
+                                <a asp-controller="Services" asp-action="Training" class="btn btn-sm btn-success"><i class="bi bi-arrow-right"></i> View Training Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDev">
+                        <i class="bi bi-code-slash me-2 text-warning"></i> Software Development
+                    </button>
+                </h2>
+                <div id="collapseDev" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
+                    <div class="accordion-body">
+                        <div class="row align-items-center g-3">
+                            <div class="col-md-3 img-zoom"><img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&q=80" class="img-fluid rounded shadow-sm" style="height:130px; width:100%; object-fit:cover;" /></div>
+                            <div class="col-md-9 text-muted">From custom web applications to mobile apps and APIs, our development team uses ASP.NET Core, React, Angular, and Flutter to deliver solutions.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCloud">
+                        <i class="bi bi-cloud-arrow-up me-2 text-info"></i> Cloud Services
+                    </button>
+                </h2>
+                <div id="collapseCloud" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
+                    <div class="accordion-body">
+                        <div class="row align-items-center g-3">
+                            <div class="col-md-3 img-zoom"><img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&q=80" class="img-fluid rounded shadow-sm" style="height:130px; width:100%; object-fit:cover;" /></div>
+                            <div class="col-md-9 text-muted">We help organizations migrate to and optimize workloads on AWS, Microsoft Azure, and Google Cloud with security built in.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4 mt-5">
+        <div class="col-md-6" data-aos="fade-right">
+            <div class="card border-start border-primary border-4 shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold"><i class="bi bi-person-check text-primary card-icon"></i> Consulting</h5>
+                    <p class="card-text text-muted">Expert guidance for digital transformation and IT strategy.</p>
+                    <a asp-controller="Services" asp-action="Consulting" class="btn btn-primary btn-sm">Explore</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6" data-aos="fade-left">
+            <div class="card border-start border-success border-4 shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold"><i class="bi bi-mortarboard text-success card-icon"></i> Training</h5>
+                    <p class="card-text text-muted">Upskill your team with our certification-ready programs.</p>
+                    <a asp-controller="Services" asp-action="Training" class="btn btn-success btn-sm">Explore</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

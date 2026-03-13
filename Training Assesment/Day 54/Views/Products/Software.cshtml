@@ -1,0 +1,77 @@
+@{
+    ViewData["Title"] = "Software Products";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid px-0">
+    <div class="page-hero parallax-banner" style="
+        background-image: linear-gradient(rgba(13,110,253,0.88), rgba(13,202,240,0.88)),
+        url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1600&q=80');
+        padding: 80px 0 60px; color: white;">
+        <div class="container">
+            <h1 class="fw-bold hero-title"><i class="bi bi-code-slash"></i> Software Products</h1>
+            <p class="lead mb-0 hero-subtitle">Enterprise-grade software solutions built for scale and performance.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container my-5">
+
+    <div class="row align-items-center g-5 mb-5">
+        <div class="col-md-7" data-aos="fade-right">
+            <h3 class="fw-bold mb-3">Software That Scales With You</h3>
+            <p class="text-muted">Our software products are architected for performance, security, and flexibility. Every release goes through rigorous QA to ensure stability for your critical business operations.</p>
+        </div>
+        <div class="col-md-5" data-aos="fade-left">
+            <div class="img-zoom rounded-4 shadow">
+                <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=700&q=80"
+                     class="img-fluid rounded-4" style="width:100%; height:240px; object-fit:cover;" />
+            </div>
+        </div>
+    </div>
+
+    <div class="animated-divider"></div>
+
+    <div class="mb-4" data-aos="fade-up">
+        <h4 class="fw-bold mb-3"><i class="bi bi-tags text-primary"></i> Product Tags</h4>
+        <span class="badge bg-primary fs-6 me-2 mb-2">Web App</span>
+        <span class="badge bg-success fs-6 me-2 mb-2">Cloud-Native</span>
+        <span class="badge bg-warning text-dark fs-6 me-2 mb-2">SaaS</span>
+        <span class="badge bg-info text-dark fs-6 me-2 mb-2">API-First</span>
+        <span class="badge bg-danger fs-6 me-2 mb-2">Enterprise</span>
+        <span class="badge bg-secondary fs-6 me-2 mb-2">Open Source</span>
+        <span class="badge bg-dark fs-6 me-2 mb-2">Cross-Platform</span>
+    </div>
+
+    <h4 class="fw-bold mb-3" data-aos="fade-up"><i class="bi bi-table text-primary"></i> Software Catalog</h4>
+    <div class="table-responsive shadow-sm rounded mb-5" data-aos="fade-up">
+        <table class="table table-striped table-hover table-bordered align-middle">
+            <thead class="table-primary">
+                <tr><th>#</th><th>Product Name</th><th>Description</th><th>Tech Stack</th><th>License</th><th>Version</th><th>Status</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td><strong>PortalERP</strong></td><td>Full-featured ERP for mid-size companies</td><td><span class="badge bg-primary">ASP.NET</span> <span class="badge bg-secondary">SQL Server</span></td><td><span class="badge bg-warning text-dark">Commercial</span></td><td>v4.2.1</td><td><span class="badge bg-success">Stable</span></td></tr>
+                <tr><td>2</td><td><strong>DataVault</strong></td><td>Secure cloud data management platform</td><td><span class="badge bg-info text-dark">React</span> <span class="badge bg-dark">Node.js</span></td><td><span class="badge bg-success">SaaS</span></td><td>v1.8.0-beta</td><td><span class="badge bg-warning text-dark">Beta</span></td></tr>
+                <tr><td>3</td><td><strong>HRFlow</strong></td><td>HR management and payroll automation</td><td><span class="badge bg-primary">Angular</span> <span class="badge bg-secondary">.NET API</span></td><td><span class="badge bg-warning text-dark">Commercial</span></td><td>v3.0.4</td><td><span class="badge bg-success">Stable</span></td></tr>
+                <tr><td>4</td><td><strong>InventoryX</strong></td><td>Real-time inventory and supply chain tracking</td><td><span class="badge bg-danger">Blazor</span> <span class="badge bg-secondary">PostgreSQL</span></td><td><span class="badge bg-secondary">Open Source</span></td><td>v2.1.0</td><td><span class="badge bg-success">Stable</span></td></tr>
+                <tr><td>5</td><td><strong>SmartCMS</strong></td><td>AI-powered content management system</td><td><span class="badge bg-warning text-dark">Vue.js</span> <span class="badge bg-dark">Python</span></td><td><span class="badge bg-success">SaaS</span></td><td>v0.9.5</td><td><span class="badge bg-info text-dark">Alpha</span></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h4 class="fw-bold mb-3" data-aos="fade-up"><i class="bi bi-star text-warning"></i> Feature Highlights — PortalERP</h4>
+    <div class="table-responsive shadow-sm rounded" data-aos="fade-up">
+        <table class="table table-bordered align-middle">
+            <thead class="table-dark">
+                <tr><th>Feature</th><th>Starter</th><th>Professional</th><th>Enterprise</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Users</td><td><span class="badge bg-secondary">Up to 10</span></td><td><span class="badge bg-primary">Up to 100</span></td><td><span class="badge bg-success">Unlimited</span></td></tr>
+                <tr><td>Cloud Storage</td><td>10 GB</td><td>100 GB</td><td>Unlimited</td></tr>
+                <tr><td>API Access</td><td><i class="bi bi-x-circle text-danger"></i></td><td><i class="bi bi-check-circle text-success"></i></td><td><i class="bi bi-check-circle text-success"></i></td></tr>
+                <tr><td>Priority Support</td><td><i class="bi bi-x-circle text-danger"></i></td><td><i class="bi bi-x-circle text-danger"></i></td><td><i class="bi bi-check-circle text-success"></i></td></tr>
+                <tr><td>Monthly Price</td><td><strong>$49</strong></td><td><strong>$199</strong></td><td><strong>Custom</strong></td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Admission Form</title>
+</head>
+
+<body>
+
+<h2>College Admission Form</h2>
+
+<form>
+
+<table border="1" cellpadding="8">
+
+<tr>
+<td>Full Name</td>
+<td><input type="text" name="fullname" placeholder="Enter your name" required></td>
+</tr>
+
+<tr>
+<td>Email</td>
+<td><input type="email" name="email" placeholder="Enter email" required></td>
+</tr>
+
+<tr>
+<td>Password</td>
+<td><input type="password" name="password" minlength="6"></td>
+</tr>
+
+<tr>
+<td>Phone Number</td>
+<td><input type="tel" name="phone" pattern="[0-9]{10}" placeholder="10 digit number"></td>
+</tr>
+
+<tr>
+<td>Date of Birth</td>
+<td><input type="date" name="dob"></td>
+</tr>
+
+<tr>
+<td>Age</td>
+<td><input type="number" name="age" min="16" max="50"></td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+<input type="radio" name="gender" value="other"> Other
+</td>
+</tr>
+
+<tr>
+<td>Course Applying For</td>
+<td>
+<select name="course">
+<option value="">Select Course</option>
+<option>B.Tech</option>
+<option>BCA</option>
+<option>BBA</option>
+<option>MCA</option>
+<option>MBA</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Subjects Known</td>
+<td>
+<input type="checkbox" name="sub1"> Mathematics
+<input type="checkbox" name="sub2"> Computer Science
+<input type="checkbox" name="sub3"> Physics
+</td>
+</tr>
+
+<tr>
+<td>Upload Documents</td>
+<td><input type="file" name="documents"></td>
+</tr>
+
+<tr>
+<td>Website / Portfolio</td>
+<td><input type="url" name="website" placeholder="https://example.com"></td>
+</tr>
+
+<tr>
+<td>Search Course</td>
+<td><input type="search" name="searchcourse"></td>
+</tr>
+
+<tr>
+<td>Preferred Color</td>
+<td><input type="color" name="favcolor"></td>
+</tr>
+
+<tr>
+<td>Application Time</td>
+<td><input type="time" name="time"></td>
+</tr>
+
+<tr>
+<td>Address</td>
+<td><textarea name="address" rows="4" cols="30"></textarea></td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>

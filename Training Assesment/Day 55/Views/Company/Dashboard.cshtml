@@ -1,0 +1,69 @@
+@model List<Day_55.Models.Employee>
+
+@{
+    ViewData["Title"] = "Department Dashboard";
+
+    var isActive       = ViewData["IsActive"] is bool b && b;
+    var departmentName = ViewData["DepartmentName"]?.ToString() ?? "Unknown";
+    var serverStatus   = ViewData["ServerStatus"]?.ToString()   ?? "Unknown";
+}
+
+<div class="container py-5">
+
+    <div class="mb-4">
+        <h1 class="h3 fw-bold">Tech Portal</h1>
+        <p class="text-muted mb-0">Department: <strong>@departmentName</strong></p>
+        <p class="text-muted">Server Status: <strong>@serverStatus</strong></p>
+    </div>
+
+    <div class="alert alert-info alert-dismissible fade show" role="alert">
+        <strong>Daily Announcement:</strong> @ViewBag.DailyAnnouncement
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+
+    @if (isActive)
+    {
+        <div class="alert alert-success">
+            Department Status: <strong>Active & Operational</strong>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning">
+            Department Status: <strong>Under Maintenance</strong>
+        </div>
+    }
+
+    <div class="card shadow-sm">
+        <div class="card-header bg-dark text-white">
+            <h5 class="mb-0">Team Members</h5>
+        </div>
+        <div class="card-body p-0">
+            <table class="table table-striped table-hover mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th class="text-end">Annual Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var emp in Model)
+                    {
+                        <tr>
+                            <td>@emp.Id</td>
+                            <td>@emp.Name</td>
+                            <td>@emp.Position</td>
+                            <td class="text-end">@emp.Salary.ToString("")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="card-footer text-muted">
+            Total employees: @Model.Count
+        </div>
+    </div>
+
+</div>
