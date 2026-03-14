@@ -1,0 +1,41 @@
+@model List<Account>
+
+<h2>Accounts</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="toast show position-fixed top-0 end-0 m-3">
+        <div class="toast-body bg-success text-white">
+            @TempData["Success"]
+        </div>
+    </div>
+}
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Account</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Balance</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+@foreach (var acc in Model)
+{
+        <tr>
+            <td>@acc.Name</td>
+            <td>@acc.Balance</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@acc.Id" class="btn btn-warning btn-sm">Edit</a>
+                <a asp-action="Delete" asp-route-id="@acc.Id" class="btn btn-danger btn-sm">Delete</a>
+                <a asp-action="Details" asp-route-id="@acc.Id" class="btn btn-info btn-sm">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
