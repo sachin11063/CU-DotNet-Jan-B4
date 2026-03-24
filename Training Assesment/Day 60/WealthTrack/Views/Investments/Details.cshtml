@@ -1,0 +1,13 @@
+@model WealthTrack.Models.Investment
+
+<h2>Investment Details</h2>
+
+<p><strong>Ticker:</strong> @Model.TickerSymbol</p>
+<p><strong>Asset Name:</strong> @Model.AssetName</p>
+<p><strong>Price:</strong> @Model.PurchasePrice</p>
+<p><strong>Quantity:</strong> @Model.Quantity</p>
+<p><strong>Date:</strong> @Model.PurchaseDate.ToShortDateString()</p>
+
+<p><strong>Total:</strong> @(Model.PurchasePrice * Model.Quantity)</p>
+
+<a asp-action="Index">Back</a>

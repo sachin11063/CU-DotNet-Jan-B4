@@ -1,0 +1,39 @@
+@model IEnumerable<Investment>
+
+<h2 class="mb-4">Portfolio</h2>
+
+<a asp-action="Create" class="btn btn-primary mb-3">
+    + Add Investment
+</a>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Ticker</th>
+            <th>Asset Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Changes</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.TickerSymbol</td>
+                <td>@item.AssetName</td>
+                <td>@item.PurchasePrice</td>
+                <td>@item.Quantity</td>
+                <td>@(item.PurchasePrice * item.Quantity)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="">Edit</a>  | 
+                    <a asp-action="Details" asp-route-id="@item.Id" class="">Details</a>  |
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="">Delete</a>
+                
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
